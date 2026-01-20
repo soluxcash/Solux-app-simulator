@@ -1,0 +1,7 @@
+{
+  "name": "Solux Dashboard",
+  "description": "A premium Web3-backed credit card platform that allows users to deposit crypto as collateral and access fiat credit limits with real-time health monitoring.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
