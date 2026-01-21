@@ -1,0 +1,19 @@
+[package]
+name = "solux-vault"
+version = "0.1.0"
+description = "Solux Vault - Collateral management for credit line"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "solux_vault"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.29.0"
